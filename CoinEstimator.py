@@ -5,7 +5,7 @@ def coinPenny(x,y):
     pennyWrapper = 50
     if y == "g":
         numOfPennies = round(x / pennyWeight)
-        print("You have about ", numOfPennies, " of pennies.")
+        print('You have about ', numOfPennies, ' of pennies.')
         numOfWrappers = round(numOfPennies / pennyWrapper)
         print("You are able to fill ", numOfWrappers, " wrappers.")
         dollarAmount = .01 * numOfPennies
